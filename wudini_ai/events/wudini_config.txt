@@ -1,0 +1,21 @@
+namespace = wudini
+
+country_event = {
+  id = wudini.1
+  title = "Wudini AI"
+  desc = "Would you like to enable the Wudini AI? The Wudini AI automates basic economic functions of constructors and buildings so you don't have to."
+  picture = GFX_evt_robot_assembly_plant
+  show_sound = event_laboratory_sound
+
+  is_triggered_only = yes
+
+  option = {
+    name = "No thanks! Do not enable the Wudini AI."
+    custom_tooltip = "Keep Wudini AI disabled."
+  }
+
+  option = {
+    name = "Yes please! Enable Wudini AI."
+    custom_tooltip = "Enable the Wudini AI."
+  }
+}
