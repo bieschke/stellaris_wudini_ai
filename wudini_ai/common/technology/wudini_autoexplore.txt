@@ -1,0 +1,13 @@
+# Give the player a starting technology that serves only to enable
+# the automated exploration feature on science ships.
+wudini_autoexplore = {
+	cost = 0
+	area = physics
+	tier = 0
+	start_tech = yes
+	category = { computing }
+
+  feature_flags = {
+    tech_automated_exploration
+  }
+}
